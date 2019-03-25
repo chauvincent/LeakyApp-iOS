@@ -19,6 +19,7 @@
 		F8E168F02248AE5E00B6CBF6 /* ObservableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E168EE2248AE5E00B6CBF6 /* ObservableViewController.xib */; };
 		F8E168F32248B58100B6CBF6 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E168F12248B58100B6CBF6 /* TimerViewController.swift */; };
 		F8E168F42248B58100B6CBF6 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E168F22248B58100B6CBF6 /* TimerViewController.xib */; };
+		F8E168F62248BB3700B6CBF6 /* TimeKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E168F52248BB3700B6CBF6 /* TimeKeeper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F8E168EE2248AE5E00B6CBF6 /* ObservableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ObservableViewController.xib; sourceTree = "<group>"; };
 		F8E168F12248B58100B6CBF6 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		F8E168F22248B58100B6CBF6 /* TimerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerViewController.xib; sourceTree = "<group>"; };
+		F8E168F52248BB3700B6CBF6 /* TimeKeeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeKeeper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				F8E168EE2248AE5E00B6CBF6 /* ObservableViewController.xib */,
 				F8E168F12248B58100B6CBF6 /* TimerViewController.swift */,
 				F8E168F22248B58100B6CBF6 /* TimerViewController.xib */,
+				F8E168F52248BB3700B6CBF6 /* TimeKeeper.swift */,
 			);
 			path = MainScene;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				F86B42E822237CC300DDD795 /* AppDelegate.swift in Sources */,
 				F8E168EF2248AE5E00B6CBF6 /* ObservableViewController.swift in Sources */,
 				F8E168F32248B58100B6CBF6 /* TimerViewController.swift in Sources */,
+				F8E168F62248BB3700B6CBF6 /* TimeKeeper.swift in Sources */,
 				F86B42FD22237E7D00DDD795 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

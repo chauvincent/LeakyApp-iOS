@@ -43,5 +43,9 @@ class MainViewController: UIViewController {
         navigationController?.pushViewController(someLeakyVC, animated: true)
     }
 
+    @IBAction func displayLeakyTimerController(_ sender: Any) {
+        let leakyTimerVC = TimerViewController()
+        navigationController?.pushViewController(leakyTimerVC, animated: true)
+    }
 }
 
