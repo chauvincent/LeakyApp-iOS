@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		F86B42E822237CC300DDD795 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86B42E722237CC300DDD795 /* AppDelegate.swift */; };
-		F86B42EA22237CC300DDD795 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86B42E922237CC300DDD795 /* ViewController.swift */; };
-		F86B42ED22237CC300DDD795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86B42EB22237CC300DDD795 /* Main.storyboard */; };
 		F86B42EF22237CC500DDD795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86B42EE22237CC500DDD795 /* Assets.xcassets */; };
 		F86B42F222237CC500DDD795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86B42F022237CC500DDD795 /* LaunchScreen.storyboard */; };
+		F86B42FD22237E7D00DDD795 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86B42FC22237E7D00DDD795 /* MainViewController.swift */; };
+		F86B430022237EEB00DDD795 /* SomeModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86B42FF22237EEB00DDD795 /* SomeModalViewController.swift */; };
+		F86B43052223879600DDD795 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86B43042223879600DDD795 /* MainViewController.xib */; };
+		F86B430B2223894500DDD795 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86B430A2223894500DDD795 /* ShadowView.swift */; };
+		F86B430D2236352C00DDD795 /* SomeModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86B430C2236352C00DDD795 /* SomeModalViewController.xib */; };
+		F8E168EF2248AE5E00B6CBF6 /* ObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E168ED2248AE5E00B6CBF6 /* ObservableViewController.swift */; };
+		F8E168F02248AE5E00B6CBF6 /* ObservableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E168EE2248AE5E00B6CBF6 /* ObservableViewController.xib */; };
+		F8E168F32248B58100B6CBF6 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E168F12248B58100B6CBF6 /* TimerViewController.swift */; };
+		F8E168F42248B58100B6CBF6 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E168F22248B58100B6CBF6 /* TimerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F86B42E422237CC300DDD795 /* LeakyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeakyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86B42E722237CC300DDD795 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F86B42E922237CC300DDD795 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F86B42EC22237CC300DDD795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F86B42EE22237CC500DDD795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F86B42F122237CC500DDD795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F86B42F322237CC500DDD795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F86B42FC22237E7D00DDD795 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F86B42FF22237EEB00DDD795 /* SomeModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeModalViewController.swift; sourceTree = "<group>"; };
+		F86B43042223879600DDD795 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F86B430A2223894500DDD795 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		F86B430C2236352C00DDD795 /* SomeModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SomeModalViewController.xib; sourceTree = "<group>"; };
+		F8E168ED2248AE5E00B6CBF6 /* ObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableViewController.swift; sourceTree = "<group>"; };
+		F8E168EE2248AE5E00B6CBF6 /* ObservableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ObservableViewController.xib; sourceTree = "<group>"; };
+		F8E168F12248B58100B6CBF6 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		F8E168F22248B58100B6CBF6 /* TimerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,61 @@
 		F86B42E622237CC300DDD795 /* LeakyApp */ = {
 			isa = PBXGroup;
 			children = (
-				F86B42E722237CC300DDD795 /* AppDelegate.swift */,
-				F86B42E922237CC300DDD795 /* ViewController.swift */,
-				F86B42EB22237CC300DDD795 /* Main.storyboard */,
+				F86B42FA22237DFA00DDD795 /* AppGlobal */,
+				F86B42FE22237EA300DDD795 /* Scenes */,
+				F86B43062223882000DDD795 /* Common */,
+				F86B42F922237DF700DDD795 /* Resources */,
+			);
+			path = LeakyApp;
+			sourceTree = "<group>";
+		};
+		F86B42F922237DF700DDD795 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				F86B42EE22237CC500DDD795 /* Assets.xcassets */,
 				F86B42F022237CC500DDD795 /* LaunchScreen.storyboard */,
 				F86B42F322237CC500DDD795 /* Info.plist */,
 			);
-			path = LeakyApp;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F86B42FA22237DFA00DDD795 /* AppGlobal */ = {
+			isa = PBXGroup;
+			children = (
+				F86B42E722237CC300DDD795 /* AppDelegate.swift */,
+			);
+			path = AppGlobal;
+			sourceTree = "<group>";
+		};
+		F86B42FE22237EA300DDD795 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F86B43032223875200DDD795 /* MainScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F86B43032223875200DDD795 /* MainScene */ = {
+			isa = PBXGroup;
+			children = (
+				F86B42FC22237E7D00DDD795 /* MainViewController.swift */,
+				F86B43042223879600DDD795 /* MainViewController.xib */,
+				F86B42FF22237EEB00DDD795 /* SomeModalViewController.swift */,
+				F86B430C2236352C00DDD795 /* SomeModalViewController.xib */,
+				F8E168ED2248AE5E00B6CBF6 /* ObservableViewController.swift */,
+				F8E168EE2248AE5E00B6CBF6 /* ObservableViewController.xib */,
+				F8E168F12248B58100B6CBF6 /* TimerViewController.swift */,
+				F8E168F22248B58100B6CBF6 /* TimerViewController.xib */,
+			);
+			path = MainScene;
+			sourceTree = "<group>";
+		};
+		F86B43062223882000DDD795 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F86B430A2223894500DDD795 /* ShadowView.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +183,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8E168F42248B58100B6CBF6 /* TimerViewController.xib in Resources */,
+				F86B430D2236352C00DDD795 /* SomeModalViewController.xib in Resources */,
+				F8E168F02248AE5E00B6CBF6 /* ObservableViewController.xib in Resources */,
 				F86B42F222237CC500DDD795 /* LaunchScreen.storyboard in Resources */,
+				F86B43052223879600DDD795 /* MainViewController.xib in Resources */,
 				F86B42EF22237CC500DDD795 /* Assets.xcassets in Resources */,
-				F86B42ED22237CC300DDD795 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F86B42EA22237CC300DDD795 /* ViewController.swift in Sources */,
+				F86B430B2223894500DDD795 /* ShadowView.swift in Sources */,
+				F86B430022237EEB00DDD795 /* SomeModalViewController.swift in Sources */,
 				F86B42E822237CC300DDD795 /* AppDelegate.swift in Sources */,
+				F8E168EF2248AE5E00B6CBF6 /* ObservableViewController.swift in Sources */,
+				F8E168F32248B58100B6CBF6 /* TimerViewController.swift in Sources */,
+				F86B42FD22237E7D00DDD795 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F86B42EB22237CC300DDD795 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F86B42EC22237CC300DDD795 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F86B42F022237CC500DDD795 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,14 +342,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LeakyApp/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/LeakyApp/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chauvincent.LeakyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,14 +361,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LeakyApp/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/LeakyApp/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chauvincent.LeakyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
